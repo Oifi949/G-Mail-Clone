@@ -4,6 +4,17 @@ import { useEffect, useState } from "react";
 import EmailList from "./components/EmailList";
 import { useNavigate } from "react-router";
 
+export function meta() {
+  return [
+    { title: "G-Mail | Clone | inbox" },
+    {
+      name: "description",
+      content:
+        "A responsive Instagram-like page built with React Router and Tailwind CSS.",
+    },
+  ];
+}
+
 const placeholder = [
   {
     id: "placeholder-1",

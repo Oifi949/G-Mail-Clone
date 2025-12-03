@@ -275,7 +275,7 @@ export default function MailBody() {
         <div className="mt-3 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
           <div className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
             <button className="p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700">
-              <MdAttachFile size={18} className="sm:size-20" />
+              <MdAttachFile size={18} className="sm:size-8" />
             </button>
             <span className="text-xs sm:text-sm">Attachment support coming soon</span>
           </div>
@@ -298,7 +298,7 @@ export default function MailBody() {
             }}
             className="text-black border px-4 sm:px-8 py-2 rounded-full hover:bg-gray-100 cursor-pointer flex items-center gap-2 sm:gap-3 text-xs sm:text-sm"
           >
-            <LuReply size={20} className="sm:size-23" />
+            <LuReply size={20} className="sm:size-8" />
             Reply
           </button>
           <Popover>
@@ -307,7 +307,7 @@ export default function MailBody() {
                 className="text-black border px-4 sm:px-8 py-2 rounded-full hover:bg-gray-100 cursor-pointer flex items-center gap-2 sm:gap-3 text-xs sm:text-sm"
                 variant={"outline"}
               >
-                <LuForward size={20} className="sm:size-23" />
+                <LuForward size={20} className="sm:size-8" />
                 Forward
               </Button>
             </PopoverTrigger>
@@ -318,7 +318,7 @@ export default function MailBody() {
           <Popover>
             <PopoverTrigger asChild>
               <Button variant={"outline"} className="px-2 sm:px-4">
-                <GrEmoji size={20} className="sm:size-23" />
+                <GrEmoji size={20} className="sm:size-8" />
               </Button>
             </PopoverTrigger>
             <PopoverContent className="text-white w-[120px] sm:w-[140px] px-3 sm:px-5 py-2 bg-black/70 text-xs font-normal">
