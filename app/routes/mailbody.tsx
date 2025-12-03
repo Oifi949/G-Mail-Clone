@@ -18,6 +18,17 @@ import { GrEmoji } from "react-icons/gr";
 import { Button } from "~/components/ui/button";
 import { Popover, PopoverContent, PopoverTrigger } from "./components/popover";
 
+export function meta() {
+  return [
+    { title: "G-Mail | Clone " },
+    {
+      name: "description",
+      content:
+        "A responsive Instagram-like page built with React Router and Tailwind CSS.",
+    },
+  ];
+}
+
 export default function MailBody() {
   const { id } = useParams();
   const [email, setEmail] = useState<any | null>(null);

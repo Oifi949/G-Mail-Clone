@@ -5,6 +5,17 @@ import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import { useState } from "react";
 
+export function meta() {
+  return [
+    { title: "G-Mail | Clone" },
+    {
+      name: "description",
+      content:
+        "A responsive Instagram-like page built with React Router and Tailwind CSS.",
+    },
+  ];
+}
+
 export default function AppLayout() {
   const { userId } = useParams();
   const location = useLocation();

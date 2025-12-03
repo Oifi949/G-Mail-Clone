@@ -3,6 +3,17 @@ import supabase from "lib/supabase";
 import type { mails } from "lib/types";
 import EmailList from "./components/EmailList";
 
+export function meta() {
+  return [
+    { title: "G-Mail | Clone | sent" },
+    {
+      name: "description",
+      content:
+        "A responsive Instagram-like page built with React Router and Tailwind CSS.",
+    },
+  ];
+}
+
 export default function Sent() {
   const [emails, setEmails] = useState<
     Array<mails & { recipient?: string; preview?: string; time?: string }>

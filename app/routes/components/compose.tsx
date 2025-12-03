@@ -142,7 +142,7 @@ export default function ComposeWindow({
           }}
           className="text-gray-500 hover:text-gray-700 cursor-pointer"
         >
-          <MdClose size={18} className="sm:size-20" />
+          <MdClose size={18} className="sm:size-8" />
         </button>
       </div>
     </div>
@@ -267,17 +267,17 @@ export default function ComposeWindow({
           </button>
           <div className="flex space-x-2 sm:space-x-3 text-gray-500">
             <label title="Attach file" className="cursor-pointer">
-              <MdAttachFile size={18} className="sm:size-20" />
+              <MdAttachFile size={18} className="sm:size-8" />
               <input type="file" onChange={handleFileChange} className="hidden" />
             </label>
             <button type="button" title="Insert emoji" ref={dropdownRef} onClick={() => setShowEmojiPicker(!showEmojiPicker)}>
-              <MdInsertEmoticon size={18} className="sm:size-20" />
+              <MdInsertEmoticon size={18} className="sm:size-8" />
             </button>
             <button type="button" title="Formatting options">
-              <MdFormatColorText size={18} className="sm:size-20" />
+              <MdFormatColorText size={18} className="sm:size-8" />
             </button>
             <button type="button" title="More options">
-              <MdMoreVert size={18} className="sm:size-20" />
+              <MdMoreVert size={18} className="sm:size-8" />
             </button>
           </div>
         </div>
