@@ -171,14 +171,14 @@ export default function MailBody() {
       {/* Top Action Bar */}
       <div className="flex flex-wrap justify-end gap-2 sm:gap-3 mb-4 text-gray-500">
         <button className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800" title="Archive">
-          <MdArchive size={18} className="sm:size-8" />
+          <MdArchive size={18} className="sm:size-7" />
         </button>
         <button
           className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800"
           title="Delete"
           onClick={handleDelete}
         >
-          <MdDelete size={18} className="sm:size-8" />
+          <MdDelete size={18} className="sm:size-7" />
         </button>
         <button
           className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800"
@@ -192,7 +192,7 @@ export default function MailBody() {
           <MdReply size={18} className="sm:size-8" />
         </button>
         <button className="p-2 rounded-full hover:bg-gray-100 dark:hover:bg-gray-800" title="More">
-          <MdMoreVert size={18} className="sm:size-8" />
+          <MdMoreVert size={18} className="sm:size-7" />
         </button>
       </div>
 
@@ -298,7 +298,7 @@ export default function MailBody() {
             }}
             className="text-black border px-4 sm:px-8 py-2 rounded-full hover:bg-gray-100 cursor-pointer flex items-center gap-2 sm:gap-3 text-xs sm:text-sm"
           >
-            <LuReply size={20} className="sm:size-8" />
+            <LuReply size={20} className="sm:size-7" />
             Reply
           </button>
           <Popover>
@@ -307,7 +307,7 @@ export default function MailBody() {
                 className="text-black border px-4 sm:px-8 py-2 rounded-full hover:bg-gray-100 cursor-pointer flex items-center gap-2 sm:gap-3 text-xs sm:text-sm"
                 variant={"outline"}
               >
-                <LuForward size={20} className="sm:size-8" />
+                <LuForward size={20} className="sm:size-7" />
                 Forward
               </Button>
             </PopoverTrigger>
@@ -318,7 +318,7 @@ export default function MailBody() {
           <Popover>
             <PopoverTrigger asChild>
               <Button variant={"outline"} className="px-2 sm:px-4">
-                <GrEmoji size={20} className="sm:size-8" />
+                <GrEmoji size={20} className="sm:size-7" />
               </Button>
             </PopoverTrigger>
             <PopoverContent className="text-white w-[120px] sm:w-[140px] px-3 sm:px-5 py-2 bg-black/70 text-xs font-normal">
