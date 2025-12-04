@@ -44,6 +44,7 @@ export default function AccountDropdown() {
   const handleSignOut = async () => {
     try {
       await supabase.auth.signOut();
+      navigate("/auth");
     } catch (e) {
       console.error("Sign out error", e);
     } finally {
