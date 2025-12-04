@@ -160,7 +160,7 @@ export default function ComposeWindow({
                 className="border px-2 py-1 flex items-center rounded-full gap-2 text-xs sm:text-sm"
               >
                 <span className="bg-blue-300 rounded-full w-6 h-6 flex justify-center items-center text-blue-700">
-                  <FaUserAlt size={14} className="sm:size-18" />
+                  <FaUserAlt size={14} className="sm:size-14" />
                 </span>
                 {receipient}
                 <span
