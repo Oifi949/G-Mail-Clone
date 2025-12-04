@@ -47,9 +47,6 @@ export default function Sent() {
           .eq("user_id", uid)
           .order("created_at", { ascending: false });
 
-          console.log({data});
-          
-
         if (error) {
           console.error("Error fetching sent mails:", error);
         } else if (mounted && data) {

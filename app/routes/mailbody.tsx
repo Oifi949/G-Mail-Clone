@@ -65,11 +65,7 @@ export default function MailBody() {
           .from("mails")
           .select("*")
           .eq("id", id)
-          .single();
-
-        console.log("mail data");
-        console.log(data);
-
+          .single();  
         if (error) {
           throw error;
         } else {

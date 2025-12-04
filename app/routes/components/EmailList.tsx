@@ -26,7 +26,7 @@ export default function EmailList({
 }: {
   loading: boolean;
   emails: (mails & {
-    sender?: string;
+    sender: string;
     preview?: string;
     time?: string;
   })[];
