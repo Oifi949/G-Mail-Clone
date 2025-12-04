@@ -218,7 +218,7 @@ export default function ComposeWindow({
                 >
                   <div className="flex gap-2 sm:gap-3 items-center bg-gray-200 p-2 text-xs sm:text-sm">
                     <span className="bg-blue-300 rounded-full w-8 h-8 flex justify-center items-center text-blue-700">
-                      <FaUserAlt size={16} className="sm:size-16" />
+                      <FaUserAlt size={16} className="sm:size-" />
                     </span>
                     {valideatedEmail}
                   </div>
